@@ -1,0 +1,91 @@
+/* header开始 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px "HanHei SC", "PingFang SC", "Avenir Next", Avenir, "Helvetica Neue", Helvetica, "Lantinghei SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑， STHeiti, "wenQuanYi Micro Hei", SimSun,sans-serif;
+    height: 2000px;
+}
+ul,li{  
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1350px;
+    margin: 0 auto;
+}
+header{
+    background: #333;
+    height: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+header li{
+    float:left;
+    line-height: 40px;
+}
+header .login{
+    float: right;
+}
+header a{
+    color: #fff;
+}
+header span{
+    margin: 0 6px;
+}
+/* header结束 */
+
+/* nav开始 */
+nav{
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 85px;
+    height: 85px;
+    margin-top: 12px;
+    display: inline-block;
+}
+nav .logo{
+    position: relative;
+}
+nav .title{
+    display:inline-block;
+    position: relative;
+    right:-10px;
+    top: -15px;
+}
+nav .title .name{
+    font-size: 35px;
+    color: #000;
+}
+nav .title .describe{
+    color:rgb(143, 121, 121)
+}
+.nav-list {
+    float:right;
+    margin-top: 36px;
+    margin-right: -23px;
+}
+.nav-list .nav-item{
+    float: left;
+    padding: 0 23px;
+}
+/* nav li:last-child{
+    padding-right: 0;
+} */
+.nav-list .sub-list{
+    background: #fff;
+}
+nav a{
+    color: #212121;
+    font-size: 18px;
+}
+nav a:hover{
+    color:#e94400;
+}
+/* nav结束 */
